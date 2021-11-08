@@ -1,3 +1,3 @@
 import Card from './src/Card';
 
-module.exports = Card;
+exports.Card = Card;
