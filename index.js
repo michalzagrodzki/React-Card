@@ -1,5 +1,3 @@
 import Card from './src/Card';
 
-module.exports = {
-  Card
-}
+module.exports = Card;
