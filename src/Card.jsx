@@ -1,4 +1,4 @@
-export default function Card ({ title, body, image, style, children, ...rest }) {
+export default ({ title, body, image, style, children, ...rest }) => {
   const styles = {
     color: "black",
     backgroundColor: "transparent",
