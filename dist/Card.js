@@ -33,7 +33,7 @@ function Card(_ref) {
 
   const styles = _objectSpread({
     color: "black",
-    backgroundColor: "transparent",
+    backgroundColor: "#FFFFFF",
     padding: "10px",
     border: "1px solid #eaeef3",
     borderRadius: "10px"

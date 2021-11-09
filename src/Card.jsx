@@ -3,7 +3,7 @@ import React from "react";
 function Card ({ title, body, image, style, children, ...rest }) {
   const styles = {
     color: "black",
-    backgroundColor: "transparent",
+    backgroundColor: "#FFFFFF",
     padding: "10px",
     border: "1px solid #eaeef3",
     borderRadius: "10px",
