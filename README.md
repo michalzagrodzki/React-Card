@@ -3,7 +3,9 @@ React component which provides a card with styles, title, body and image. Also p
 
 ### Install
 `npm install https://github.com/michalzagrodzki/React-Card.git --save`
+
 or
+
 `yarn add https://github.com/michalzagrodzki/React-Card.git`
 
 ### Use
