@@ -3,6 +3,8 @@ React component which provides a card with styles, title, body and image. Also p
 
 ### Install
 `npm install https://github.com/michalzagrodzki/React-Card.git --save`
+or
+`yarn add https://github.com/michalzagrodzki/React-Card.git`
 
 ### Use
 
@@ -10,7 +12,7 @@ React component which provides a card with styles, title, body and image. Also p
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Card from 'react-card';
+import { Card } from "react-card";
 
 ReactDOM.render(
   <div>
@@ -23,7 +25,7 @@ ReactDOM.render(
 ```
 ##### ES5
 ```javascript
-var Rectangle = require('react-card');
+var Card = require('react-card');
 ```
 
 ### API
