@@ -1,4 +1,6 @@
-export default ({ title, body, image, style, children, ...rest }) => {
+import React from "react";
+
+function Card ({ title, body, image, style, children, ...rest }) {
   const styles = {
     color: "black",
     backgroundColor: "transparent",
@@ -16,3 +18,4 @@ export default ({ title, body, image, style, children, ...rest }) => {
     </div>
   );
 }
+export default Card;

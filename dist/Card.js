@@ -4,7 +4,12 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
 const _excluded = ["title", "body", "image", "style", "children"];
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
 
@@ -16,7 +21,7 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
 
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
-var _default = _ref => {
+function Card(_ref) {
   let {
     title,
     body,
@@ -34,12 +39,13 @@ var _default = _ref => {
     borderRadius: "10px"
   }, style);
 
-  return /*#__PURE__*/React.createElement("div", {
+  return /*#__PURE__*/_react.default.createElement("div", {
     style: styles
-  }, title ? /*#__PURE__*/React.createElement("h1", null, title) : null, body ? /*#__PURE__*/React.createElement("p", null, body) : null, image ? /*#__PURE__*/React.createElement("img", {
+  }, title ? /*#__PURE__*/_react.default.createElement("h1", null, title) : null, body ? /*#__PURE__*/_react.default.createElement("p", null, body) : null, image ? /*#__PURE__*/_react.default.createElement("img", {
     src: image,
     alt: "Image"
   }) : null, children);
-};
+}
 
+var _default = Card;
 exports.default = _default;
