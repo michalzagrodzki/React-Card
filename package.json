@@ -1,6 +1,6 @@
 {
-  "name": "react-card",
-  "description": "React card component",
+  "name": "react-components",
+  "description": "React example components",
   "version": "0.1.0",
   "license": "MIT",
   "private": false,
@@ -14,7 +14,7 @@
   "module": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michalzagrodzki/React-Card.git"
+    "url": "git+https://github.com/michalzagrodzki/React-Components.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",

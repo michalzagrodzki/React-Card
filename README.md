@@ -1,12 +1,12 @@
-# React Card
-React component which provides a card with styles, title, body and image. Also possible to place own components or styles within component
+# React Components
+React component which provides an example components with styles, and described properties. Also possible to place own components or styles within components
 
 ### Install
-`npm install https://github.com/michalzagrodzki/React-Card.git --save`
+`npm install https://github.com/michalzagrodzki/React-Components.git --save`
 
 or
 
-`yarn add https://github.com/michalzagrodzki/React-Card.git`
+`yarn add https://github.com/michalzagrodzki/React-Components.git`
 
 ### Use
 
@@ -14,7 +14,7 @@ or
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Card } from "react-card";
+import { Card } from "react-components";
 
 ReactDOM.render(
   <div>
@@ -27,7 +27,7 @@ ReactDOM.render(
 ```
 ##### ES5
 ```javascript
-var Card = require('react-card');
+var Card = require('react-components');
 ```
 
 ### API
